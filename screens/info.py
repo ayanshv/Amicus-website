@@ -5,7 +5,7 @@ from components.navbar import navbar
 from components.footer import footer
 
 
-@ui.page('/')
+
 @ui.page('/info')
 def info():
     image_bg()

@@ -12,7 +12,7 @@ from backend.text_extract import extract_text_from_image
 
 import io
 
-@ui.page('/')
+
 @ui.page('/analyze')
 def analyze():
     image_bg()
